@@ -1,0 +1,24 @@
+﻿@model DataTable;
+@using System.Data
+<h1>Intern List of GNWebsoft</h1>
+<table class="table table-striped">
+    <thead>
+        <th>FirstName</th>
+        <th>LastName</th>
+        <th>Gender</th>
+        <th>mobileNo</th>
+        <th>BirthDate</th>
+    </thead>
+    <tbody>
+        @foreach(DataRow dr in Model.Rows)
+        {
+            <tr>
+                <td>@dr["FirstName"]</td>
+                <td>@dr["LastName"]</td>
+                <td>@dr["Gender"]</td>
+                <td>@dr["MobileNo"]</td>
+                <td>@dr["BirthDate"]</td>
+            </tr>
+        }
+    </tbody>
+</table>

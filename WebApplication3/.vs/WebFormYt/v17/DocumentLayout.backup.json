@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\webapplication3\\servercomponentsdemo\\checkboxcontroldemo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|solutionrelative:webapplication3\\servercomponentsdemo\\checkboxcontroldemo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\webapplication3\\servercomponentsdemo\\checkboxcontroldemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|solutionrelative:webapplication3\\servercomponentsdemo\\checkboxcontroldemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\webapplication3\\servercomponentsdemo\\radiobuttoncontroldemo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|solutionrelative:webapplication3\\servercomponentsdemo\\radiobuttoncontroldemo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|c:\\users\\offic\\desktop\\dot net\\webapplication3\\webapplication3\\servercomponentsdemo\\radiobuttoncontroldemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|solutionrelative:webapplication3\\servercomponentsdemo\\radiobuttoncontroldemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\webapplication3\\servercomponentsdemo\\textboxdemo1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|solutionrelative:webapplication3\\servercomponentsdemo\\textboxdemo1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\webapplication3\\servercomponentsdemo\\textboxdemocalc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|solutionrelative:webapplication3\\servercomponentsdemo\\textboxdemocalc.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\webapplication3\\servercomponentsdemo\\textboxdemocalc.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|solutionrelative:webapplication3\\servercomponentsdemo\\textboxdemocalc.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\webapplication3\\servercomponentsdemo\\textboxdemo1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BA80FC6-8763-4BE5-8976-82E1AE680367}|WebApplication3\\WebFormYT.csproj|solutionrelative:webapplication3\\servercomponentsdemo\\textboxdemo1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RadioButtonControlDemo.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\RadioButtonControlDemo.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\ServerComponentsDemo\\RadioButtonControlDemo.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\RadioButtonControlDemo.aspx.cs",
+              "RelativeToolTip": "WebApplication3\\ServerComponentsDemo\\RadioButtonControlDemo.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T06:41:02.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RadioButtonControlDemo.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\RadioButtonControlDemo.aspx",
+              "RelativeDocumentMoniker": "WebApplication3\\ServerComponentsDemo\\RadioButtonControlDemo.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\RadioButtonControlDemo.aspx",
+              "RelativeToolTip": "WebApplication3\\ServerComponentsDemo\\RadioButtonControlDemo.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-30T06:39:01.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CheckBoxControlDemo.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\CheckBoxControlDemo.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\ServerComponentsDemo\\CheckBoxControlDemo.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\CheckBoxControlDemo.aspx.cs",
+              "RelativeToolTip": "WebApplication3\\ServerComponentsDemo\\CheckBoxControlDemo.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA6wCAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T06:31:54.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckBoxControlDemo.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\CheckBoxControlDemo.aspx",
+              "RelativeDocumentMoniker": "WebApplication3\\ServerComponentsDemo\\CheckBoxControlDemo.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\CheckBoxControlDemo.aspx",
+              "RelativeToolTip": "WebApplication3\\ServerComponentsDemo\\CheckBoxControlDemo.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-30T06:11:36.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TextBoxDemoCalc.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\TextBoxDemoCalc.aspx",
+              "RelativeDocumentMoniker": "WebApplication3\\ServerComponentsDemo\\TextBoxDemoCalc.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\TextBoxDemoCalc.aspx",
+              "RelativeToolTip": "WebApplication3\\ServerComponentsDemo\\TextBoxDemoCalc.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-30T05:57:19.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TextBoxDemo1.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\TextBoxDemo1.aspx",
+              "RelativeDocumentMoniker": "WebApplication3\\ServerComponentsDemo\\TextBoxDemo1.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\TextBoxDemo1.aspx",
+              "RelativeToolTip": "WebApplication3\\ServerComponentsDemo\\TextBoxDemo1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-30T05:40:33.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TextBoxDemoCalc.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\TextBoxDemoCalc.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\ServerComponentsDemo\\TextBoxDemoCalc.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\TextBoxDemoCalc.aspx.cs",
+              "RelativeToolTip": "WebApplication3\\ServerComponentsDemo\\TextBoxDemoCalc.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T06:03:27.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TextBoxDemo1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\TextBoxDemo1.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\ServerComponentsDemo\\TextBoxDemo1.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebApplication3\\WebApplication3\\ServerComponentsDemo\\TextBoxDemo1.aspx.cs",
+              "RelativeToolTip": "WebApplication3\\ServerComponentsDemo\\TextBoxDemo1.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T05:53:56.872Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
