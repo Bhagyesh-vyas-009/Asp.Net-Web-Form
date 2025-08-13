@@ -480,7 +480,8 @@
     <Compile Include="AdminPanel\User\UserCountryList.aspx.designer.cs">
       <DependentUpon>UserCountryList.aspx</DependentUpon>
     </Compile>
-    <Content Include="App_Code\CommonDropDownListMethods.cs" />
+    <Compile Include="CommonDropDownListMethods.cs" />
+    <Compile Include="UrlEncryptor.cs" />
     <Compile Include="Content\AddressBook.Master.cs">
       <DependentUpon>AddressBook.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -706,6 +707,7 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\" />
     <Folder Include="UserContent\" />
   </ItemGroup>
   <PropertyGroup>

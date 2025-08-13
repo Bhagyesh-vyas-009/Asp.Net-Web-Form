@@ -19,7 +19,7 @@
                        OnClientClick="return confirm('Are you sure? Want to Delete this!!!!!!!!!')" />
                    <asp:HyperLink ID="hlEdit" runat="server" Text="Edit" CssClass="btn btn-warning btn-sm"
                        NavigateUrl='<%# "~/AdminPanel/Contact/ContactAddEdit.aspx?ContactID="+Eval("ContactID").ToString().Trim() %>' />
-                   <asp:Label ID="lblSize" runat="server" Text='<%# Contac %>'/>
+                  <%-- <asp:Label ID="lblSize" runat="server" Text='<%# Contac %>'/>--%>
                </ItemTemplate>
            </asp:TemplateField>
        </Columns>

@@ -13,8 +13,8 @@
                 Country Name :
             </div>
             <div class="col">
-                <asp:DropDownList ID="ddlCountryID" runat="server" CssClass="form-select"></asp:DropDownList>
-                <asp:RequiredFieldValidator ID="rfvCountryID" runat="server" ControlToValidate="ddlCountryID" ErrorMessage="Please Select Country" ForeColor="#FF3300" InitialValue="-1"></asp:RequiredFieldValidator>
+                <asp:DropDownList ID="ddlCountryID" runat="server" CssClass="form-select" ></asp:DropDownList>
+                <%--<asp:RequiredFieldValidator ID="rfvCountryID" runat="server" ControlToValidate="ddlCountryID" ErrorMessage="Please Select Country" ForeColor="#FF3300" InitialValue="-1"></asp:RequiredFieldValidator>--%>
             </div>
         </div>
         <div class="row">

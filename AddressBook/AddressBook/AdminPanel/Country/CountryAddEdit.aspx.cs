@@ -1,4 +1,5 @@
-﻿using Microsoft.Win32.SafeHandles;
+﻿using AddressBook.Content;
+using Microsoft.Win32.SafeHandles;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -15,14 +16,29 @@ namespace AddressBook.AdminPanel.Country
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Request.QueryString["CountryID"] == null)
+            if (!Page.IsPostBack)
             {
-                lblMessage.Text = "Add Mode";
-            }
-            else
-            {
-                lblMessage.Text = "Edit Mode | CountryID=" + Request.QueryString["CountryID"];
-                FillControls(Convert.ToInt32(Request.QueryString["CountryID"]));
+                if (Session["UserID"] == null)
+                    Response.Redirect("~/AdminPanel/Login");
+                if (Page.RouteData.Values["OperationName"] != null)
+                {
+                    if (Page.RouteData.Values["CountryID"] != null)
+                    {
+                        lblMessage.Text = "Edit Mode | CountryID " + Page.RouteData.Values["CountryID"];
+                        FillControls(Convert.ToInt32(AddressBook.UrlEncryptor.Decrypt(Page.RouteData.Values["CountryID"].ToString())));
+                    }
+                    else
+                        lblMessage.Text = "Add Mode";
+                }
+                if (Request.QueryString["CountryID"] != null)
+                {
+                    lblMessage.Text = "Edit Mode | CountryID " + Request.QueryString["CountryID"];
+                    FillControls(Convert.ToInt32(AddressBook.UrlEncryptor.Decrypt(Request.QueryString["CountryID"].ToString())));
+                }
+                else if (Request.QueryString["CountryID"] == null)
+                {
+                    lblMessage.Text = "Add Mode";
+                }
             }
         }
 
@@ -30,7 +46,6 @@ namespace AddressBook.AdminPanel.Country
         protected void btnSave_Click(object sender, EventArgs e)
         {
             SqlString strCountryName = SqlString.Null;
-            SqlInt32 strCountyID = Convert.ToInt32(Request.QueryString["CountryID"]);
             SqlConnection conn = new SqlConnection();
             conn.ConnectionString = ConfigurationManager.ConnectionStrings["AddressBookConnectionString"].ConnectionString;
             try
@@ -51,14 +66,25 @@ namespace AddressBook.AdminPanel.Country
 
                 if (Request.QueryString["CountryID"] != null)
                 {
-                    cmd.Parameters.AddWithValue("@CountryID", Request.QueryString["CountryID"].ToString().Trim());
-                    cmd.CommandText = "PR_Country_UpdateByPK";
+                    cmd.Parameters.AddWithValue("@CountryID", AddressBook.UrlEncryptor.Decrypt(Request.QueryString["CountryID"].ToString().Trim()));
+                    //cmd.Parameters.AddWithValue("@UserID", Session["UserID"].ToString().Trim());
+                    cmd.CommandText = "[PR_Country_UpdateByPK]";
                     cmd.ExecuteNonQuery();
-                    Response.Redirect("~/AdminPanel/Country/CountryList.aspx");
+                    Response.Redirect("~/AdminPanel/Country/List");
                 }
-                else
+                if (Page.RouteData.Values["CountryID"] != null)
                 {
-                    cmd.CommandText = "PR_Country_Insert";
+                    cmd.Parameters.AddWithValue("@CountryID", AddressBook.UrlEncryptor.Decrypt(Page.RouteData.Values["CountryID"].ToString().Trim()));
+                    //cmd.Parameters.AddWithValue("@UserID", Session["UserID"].ToString().Trim());
+                    cmd.CommandText = "[PR_Country_UpdateByPK]";
+                    cmd.ExecuteNonQuery();
+                    Response.Redirect("~/AdminPanel/Country/List");
+                }
+
+                if (Request.QueryString["CountryID"] == null && Page.RouteData.Values["CountryID"] == null)
+                {
+                    //cmd.Parameters.AddWithValue("@UserID", Session["UserID"].ToString().Trim());
+                    cmd.CommandText = "[PR_Country_Insert]";
                     cmd.ExecuteNonQuery();
                     lblMessage.Attributes.Add("class", "text-success");
                     lblMessage.Text = "Data Inserted Successfully";
@@ -127,7 +153,7 @@ namespace AddressBook.AdminPanel.Country
 
         protected void btnCancel_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/AdminPanel/Country/CountryList.aspx");
+            Response.Redirect("~/AdminPanel/Country/List");
         }
     }
 }

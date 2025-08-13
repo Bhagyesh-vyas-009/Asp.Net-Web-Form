@@ -18,8 +18,11 @@
                 <ItemTemplate>
                     <asp:LinkButton ID="btnDelete" runat="server" Text="Delete" CssClass="btn btn-danger btn-sm"
                         CommandName="DeleteRecord" CommandArgument='<%# Eval("StateID").ToString().Trim() %>' OnClientClick='return confirm("are You sure want to delete!!!!!!")' />
-                    <asp:HyperLink ID="hlEdit" runat="server" Text="Edit" CssClass="btn btn-warning btn-sm"
-                        NavigateUrl='<%# "~/AdminPanel/State/StateAddEdit.aspx?StateID="+Eval("StateID").ToString().Trim() %>' />
+                    <asp:HyperLink ID="hlEdit" runat="server" Text="Edit RouteData" CssClass="btn btn-warning btn-sm"
+                        NavigateUrl='<%# "~/AdminPanel/State/Edit/"+AddressBook.UrlEncryptor.Encrypt(Eval("StateID").ToString().Trim()) %>' />
+
+                      <asp:HyperLink ID="hlEdit1" runat="server" Text="Edit QueryString" CssClass="btn btn-warning btn-sm"
+                        NavigateUrl='<%# "~/AdminPanel/State/StateAddEdit.aspx?StateID="+ AddressBook.UrlEncryptor.Encrypt(Eval("StateID").ToString().Trim()) %>' />
                 </ItemTemplate>
             </asp:TemplateField>
         </Columns>

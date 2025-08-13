@@ -13,7 +13,7 @@ namespace AddressBook
 
         protected void Application_Start(object sender, EventArgs e)
         {
-
+            RegisterRoutes(RouteTable.Routes);
         }
 
         protected void Session_Start(object sender, EventArgs e)
@@ -45,14 +45,76 @@ namespace AddressBook
         {
 
         }
-    }
 
     public static void RegisterRoutes(RouteCollection routes)
         {
             routes.Ignore("{resource}.axd/{*pathInfo}");
 
             routes.MapPageRoute(
-                
+                "AdminPanelCountryList",
+                "AdminPanel/Country/List",
+                "~/AdminPanel/Country/CountryList.aspx"
+                );
+
+            routes.MapPageRoute(
+               "AdminPanelCountryAdd",
+               "AdminPanel/Country/{OperationName}",
+               "~/AdminPanel/Country/CountryAddEdit.aspx"
+               );
+
+            routes.MapPageRoute(
+              "AdminPanelCountryEdit",
+              "AdminPanel/Country/{OperationName}/{CountryID}",
+              "~/AdminPanel/Country/CountryAddEdit.aspx"
+              );
+
+            routes.MapPageRoute(
+                "AdminPanelStateList",
+                "AdminPanel/State/List",
+                "~/AdminPanel/State/StateList.aspx"
+                );
+
+            routes.MapPageRoute(
+               "AdminPanelStateAdd",
+               "AdminPanel/State/{OperationName}",
+               "~/AdminPanel/State/StateAddEdit.aspx"
+               );
+
+            routes.MapPageRoute(
+                 "AdminPanelStateEdit",
+                 "AdminPanel/State/{OperationName}/{StateID}",
+                 "~/AdminPanel/State/StateAddEdit.aspx"
+             );
+
+            routes.MapPageRoute(
+                "AdminPanelCityList",
+                "AdminPanel/City/List",
+                "~/AdminPanel/City/CityList.aspx"
+                );
+
+            routes.MapPageRoute(
+                 "AdminPanelCityAdd",
+                 "AdminPanel/City/{OperationName}",
+                 "~/AdminPanel/City/CityAddEdit.aspx"
+             );
+
+            routes.MapPageRoute(
+                 "AdminPanelCityEdit",
+                 "AdminPanel/City/{OperationName}/{CityID}",
+                 "~/AdminPanel/City/CityAddEdit.aspx"
+             );
+
+            routes.MapPageRoute(
+                    "LoginPage",
+                    "AdminPanel/Login",
+                    "~/AdminPanel/Login.aspx"
+                );
+
+            routes.MapPageRoute(
+                    "RegisterPage",
+                    "AdminPanel/Register",
+                    "~/AdminPanel/Register.aspx"
                 );
         }
+    }
 }

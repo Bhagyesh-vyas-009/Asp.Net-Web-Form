@@ -18,8 +18,18 @@ namespace AddressBook.Content
 
             if (!Page.IsPostBack)
             {
-                if (Session["DisplayName"] != null)
-                    lblMessage.Text = Session["DisplayName"].ToString().Trim();
+                plLoginRegister.Visible = false;
+                plUserDataFromSession.Visible = false;
+                if (Session["UserID"] != null)
+                {
+                    plUserDataFromSession.Visible = true;
+                    if (Session["DisplayName"] != null)
+                        lblMessage.Text = Session["DisplayName"].ToString().Trim();
+                }
+                else
+                {
+                    plLoginRegister.Visible=true;
+                }
             }
         }
 

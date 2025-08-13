@@ -18,8 +18,13 @@
                     <asp:Button ID="btnDelete" runat="server" Text="Delete"
                         CommandName="DeleteCommand" CommandArgument='<%# Eval("CountryID").ToString().Trim() %>' SkinID="btnDelete"
                         OnClientClick="return confirm('Are you sure? Want to Delete this!!!!!!!!!')" />
-                    <asp:HyperLink ID="hlEdit" runat="server" Text="Edit" CssClass="btn btn-warning btn-sm"
-                        NavigateUrl='<%# "~/AdminPanel/Country/CountryAddEdit.aspx?CountryID="+Eval("CountryID").ToString().Trim() %>' />
+                        <asp:HyperLink ID="hlEdit" runat="server" Text="Edit RouteData" CssClass="btn btn-warning btn-sm"
+                            NavigateUrl='<%# "~/AdminPanel/Country/Edit/"+AddressBook.UrlEncryptor.Encrypt(Eval("CountryID").ToString().Trim()) %>' />
+
+                        <asp:HyperLink ID="hlEdit1" runat="server" Text="Edit QueryString" CssClass="btn btn-warning btn-sm"
+        NavigateUrl='<%# "~/AdminPanel/Country/CountryAddEdit.aspx?CountryID="+AddressBook.UrlEncryptor.Encrypt(Eval("CountryID").ToString()).ToString().Trim() %>' />
+                 <%--   <asp:HyperLink ID="hlEdit" runat="server" Text="Edit" CssClass="btn btn-warning btn-sm"
+                        NavigateUrl='<%# "~/AdminPanel/Country/CountryAddEdit.aspx?CountryID="+Eval("CountryID").ToString().Trim() %>' />--%>
                 </ItemTemplate>
             </asp:TemplateField>
         </Columns>

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using AddressBook;
 
 namespace AddressBook.AdminPanel.City
 {
@@ -15,22 +16,35 @@ namespace AddressBook.AdminPanel.City
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["UserID"] == null)
+                Response.Redirect("~/AdminPanel/Login.aspx");
             if (!Page.IsPostBack)
             {
-                if (Session["UserID"] == null)
-                    Response.Redirect("~/AdminPanel/Login.aspx");
-
-               
+                FillCountryDropDown();
+                FillStateDropDown();
+                if (Page.RouteData.Values["OperationName"] != null)
+                {
+                    if (Page.RouteData.Values["CityID"] != null)
+                    {
+                        lblMessage.Text = "Edit Mode | CityID " + Page.RouteData.Values["CityID"];
+                        FillControls(Convert.ToInt32(AddressBook.UrlEncryptor.Decrypt(Page.RouteData.Values["CityID"].ToString())));
+                    }
+                }
                 if (Request.QueryString["CityID"] != null)
                 {
-                    FillControls(Convert.ToInt32(Request.QueryString["CityID"]));
+                    lblMessage.Text = "Edit Mode | CityID " + Request.QueryString["CityID"];
+                    FillControls(Convert.ToInt32(AddressBook.UrlEncryptor.Decrypt(Request.QueryString["CityID"].ToString())));
+                }
+                if (Request.QueryString["CityID"] == null && Page.RouteData.Values["CityID"] == null)
+                {
+                    lblMessage.Text = "Add Mode";
                 }
             }
         }
 
         private void FillDropDown()
         {
-            CommonDropDownListMethods.FillCountryDropDown(ddlCountryID);
+            //CommonDropDownListMethods.FillCountryDropDown();
         }
         #region Button : Save
         protected void btnSave_Click(object sender, EventArgs e)
@@ -43,7 +57,7 @@ namespace AddressBook.AdminPanel.City
 
             try
             {
-                
+
                 String strErrorMessage = "";
                 if (ddlCountryID.SelectedIndex == 0)
                 {
@@ -90,12 +104,20 @@ namespace AddressBook.AdminPanel.City
 
                 if (Request.QueryString["CityID"] != null)
                 {
-                    cmd.Parameters.AddWithValue("@CityID", Request.QueryString["CityID"].ToString().Trim());
+                    cmd.Parameters.AddWithValue("@CityID", AddressBook.UrlEncryptor.Decrypt(Request.QueryString["CityID"].ToString().Trim()));
                     cmd.CommandText = "[PR_City_UpdateByPK]";
                     cmd.ExecuteNonQuery();
-                    Response.Redirect("~/AdminPanel/City/CityList.aspx");
+                    Response.Redirect("~/AdminPanel/City/List");
                 }
-                else
+                if (Page.RouteData.Values["CityID"] != null)
+                {
+                    cmd.Parameters.AddWithValue("@CityID", AddressBook.UrlEncryptor.Decrypt(Page.RouteData.Values["CityID"].ToString().Trim()));
+                    cmd.CommandText = "[PR_City_UpdateByPK]";
+                    cmd.ExecuteNonQuery();
+                    Response.Redirect("~/AdminPanel/City/List");
+                }
+
+                if (Request.QueryString["CityID"] == null && Page.RouteData.Values["CityID"] == null)
                 {
                     cmd.CommandText = "[PR_City_Insert]";
                     cmd.ExecuteNonQuery();
@@ -106,7 +128,7 @@ namespace AddressBook.AdminPanel.City
                     lblMessage.Attributes.Add("class", "text-success");
                     lblMessage.Text = "Data Inserted Successfully";
                 }
-                
+
             }
             catch (Exception ex)
             {
@@ -121,50 +143,53 @@ namespace AddressBook.AdminPanel.City
         }
         #endregion
 
-        //private void FillCountryDropDown()
-        //{
-        //    SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["AddressBookConnectionString"].ConnectionString);
-        //    conn.Open();
-        //    SqlCommand cmd = new SqlCommand();
-        //    cmd.Connection = conn;
-        //    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-        //    cmd.CommandText = "[PR_Country_SelectForDropDownListByUserID]";
-        //    cmd.Parameters.Add("@UserID", Session["UserID"].ToString().Trim());
+        private void FillCountryDropDown()
+        {
+            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["AddressBookConnectionString"].ConnectionString);
+            conn.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandType = System.Data.CommandType.StoredProcedure;
+            cmd.CommandText = "[PR_Country_SelectForDropDownListByUserID]";
+            cmd.Parameters.Add("@UserID", Session["UserID"].ToString().Trim());
 
-        //    SqlDataReader sdr = cmd.ExecuteReader();
-        //    if (sdr.HasRows)
-        //    {
-        //        ddlCountryID.DataSource = sdr;
-        //        ddlCountryID.DataValueField = "CountryID";
-        //        ddlCountryID.DataTextField = "CountryName";
-        //        ddlCountryID.DataBind();
-        //    }
+            SqlDataReader sdr = cmd.ExecuteReader();
+            if (sdr.HasRows)
+            {
+                ddlCountryID.DataSource = sdr;
+                ddlCountryID.DataValueField = "CountryID";
+                ddlCountryID.DataTextField = "CountryName";
+                ddlCountryID.DataBind();
+            }
 
-        //    ddlCountryID.Items.Insert(0, new ListItem("Select Country", "-1"));
-        //    conn.Close();
-        //}
+            ddlCountryID.Items.Insert(0, new ListItem("Select Country", "-1"));
+            conn.Close();
+        }
 
-        //private void FillStateDropDown()
-        //{
-        //    SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["AddressBookConnectionString"].ConnectionString);
-        //    conn.Open();
-        //    SqlCommand cmd = new SqlCommand();
-        //    cmd.Connection = conn;
-        //    cmd.CommandType = System.Data.CommandType.StoredProcedure;
-        //    cmd.CommandText = "[PR_State_SelectForDropDownList]";
+        private void FillStateDropDown()
+        {
+            SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["AddressBookConnectionString"].ConnectionString);
+            conn.Open();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandType = System.Data.CommandType.StoredProcedure;
+            cmd.CommandText = "[PR_State_SelectForDropDownListByUserID]";
+            //cmd.CommandText = "[PR_State_SelectForDropDownListByUserIDCountryID]";
+            cmd.Parameters.AddWithValue("@UserID", Session["UserID"].ToString().Trim());
+            //cmd.Parameters.AddWithValue("@CountryID", CountryID);
 
-        //    SqlDataReader sdr = cmd.ExecuteReader();
-        //    if (sdr.HasRows)
-        //    {
-        //        ddlStateID.DataSource = sdr;
-        //        ddlStateID.DataValueField = "StateID";
-        //        ddlStateID.DataTextField = "StateName";
-        //        ddlStateID.DataBind();
-        //    }
+            SqlDataReader sdr = cmd.ExecuteReader();
+            if (sdr.HasRows)
+            {
+                ddlStateID.DataSource = sdr;
+                ddlStateID.DataValueField = "StateID";
+                ddlStateID.DataTextField = "StateName";
+                ddlStateID.DataBind();
+            }
 
-        //    ddlStateID.Items.Insert(0, new ListItem("Select State", "-1"));
-        //    conn.Close();
-        //}
+            ddlStateID.Items.Insert(0, new ListItem("Select State", "-1"));
+            conn.Close();
+        }
 
         private void FillControls(SqlInt32 CityID)
         {
@@ -172,18 +197,20 @@ namespace AddressBook.AdminPanel.City
 
             try
             {
-                if(conn.State!=System.Data.ConnectionState.Open)
+                if (conn.State != System.Data.ConnectionState.Open)
                     conn.Open();
 
-                SqlCommand cmd=conn.CreateCommand();
-                cmd.CommandType=System.Data.CommandType.StoredProcedure;
+                SqlCommand cmd = conn.CreateCommand();
+                cmd.CommandType = System.Data.CommandType.StoredProcedure;
                 cmd.CommandText = "PR_City_SelectByPK";
-                cmd.Parameters.AddWithValue("@CityID", Request.QueryString["CityID"].ToString().Trim());
+                cmd.Parameters.AddWithValue("@CityID", CityID);
 
                 SqlDataReader sdr = cmd.ExecuteReader();
-                if (sdr.HasRows) {
-                    while (sdr.Read()) {
-                        if(!sdr["CountryID"].Equals(DBNull.Value))
+                if (sdr.HasRows)
+                {
+                    while (sdr.Read())
+                    {
+                        if (!sdr["CountryID"].Equals(DBNull.Value))
                             ddlCountryID.SelectedValue = sdr["CountryID"].ToString().Trim();
                         if (!sdr["StateID"].Equals(DBNull.Value))
                             ddlStateID.SelectedValue = sdr["StateID"].ToString().Trim();
@@ -191,7 +218,8 @@ namespace AddressBook.AdminPanel.City
                             txtCityName.Text = sdr["CityName"].ToString().Trim();
                         break;
                     }
-                }            }
+                }
+            }
             catch (Exception ex)
             {
                 lblMessage.Text = ex.Message;
@@ -206,9 +234,8 @@ namespace AddressBook.AdminPanel.City
 
         protected void btnCancel_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/AdminPanel/City/CityList.aspx");
+            Response.Redirect("~/AdminPanel/City/List");
         }
-    }
 
-    
+    }
 }

@@ -22,12 +22,21 @@ namespace AddressBook.AdminPanel.State
             if (!Page.IsPostBack)
             {
                 FillCountryDropDownList();
+                if (Page.RouteData.Values["OperationName"] != null)
+                {
+                    if (Page.RouteData.Values["StateID"] != null)
+                    {
+                        lblMessage.Text = "Edit Mode | StateID " + Page.RouteData.Values["StateID"];
+                        FillControls(Convert.ToInt32(AddressBook.UrlEncryptor.Decrypt(Page.RouteData.Values["StateID"].ToString())));
+                    } else
+                        lblMessage.Text = "Add Mode";
+                }
                 if (Request.QueryString["StateID"] != null)
                 {
                     lblMessage.Text = "Edit Mode | StateID " + Request.QueryString["StateID"];
-                    FillControls(Convert.ToInt32(Request.QueryString["StateID"]));
+                    FillControls(Convert.ToInt32(AddressBook.UrlEncryptor.Decrypt(Request.QueryString["StateID"].ToString())));
                 }
-                else
+                else if (Request.QueryString["StateID"] == null)
                 {
                     lblMessage.Text = "Add Mode";
                 }
@@ -116,18 +125,32 @@ namespace AddressBook.AdminPanel.State
                 cmd.Parameters.AddWithValue("@UserID", Session["UserID"].ToString().Trim());
 
                 #endregion
-                if (Request.QueryString["StateID"] != null)
+
+                #region Edit State using PAge.RouteData
+                if (Page.RouteData.Values["StateID"]!=null)
                 {
-                    #region Edit State
-                    cmd.Parameters.AddWithValue("@StateID", Request.QueryString["StateID"].ToString().Trim());
+                    int decryptedStateID = Convert.ToInt32(UrlEncryptor.Decrypt(Page.RouteData.Values["StateID"].ToString()));
+                    cmd.Parameters.AddWithValue("@StateID", decryptedStateID);
                     cmd.CommandText = "PR_State_UpdateByPK";
                     cmd.ExecuteNonQuery();
                     Response.Redirect("~/AdminPanel/State/StateList.aspx");
-                    #endregion
                 }
-                else
+                #endregion
+
+                #region Edit State using Request.QueryString
+                if (Request.QueryString["StateID"] != null)
                 {
-                    #region Insert State
+                    int decryptedStateID = Convert.ToInt32(UrlEncryptor.Decrypt(Request.QueryString["StateID"].ToString()));
+                    cmd.Parameters.AddWithValue("@StateID", decryptedStateID);
+                    cmd.CommandText = "PR_State_UpdateByPK";
+                    cmd.ExecuteNonQuery();
+                    Response.Redirect("~/AdminPanel/State/StateList.aspx");
+                }
+                #endregion
+
+                #region Insert State
+                else if(Request.QueryString["StateID"] == null && Page.RouteData.Values["StateID"] == null)
+                {
                     cmd.CommandText = "[PR_State_Insert]";
                     cmd.ExecuteNonQuery();
                     lblMessage.Attributes.Add("class", "text-success");
@@ -136,8 +159,8 @@ namespace AddressBook.AdminPanel.State
                     ddlCountryID.SelectedIndex = 0;
                     txtStateName.Text = "";
                     txtStateName.Focus();
-                    #endregion
                 }
+                #endregion
             }
             catch (Exception ex)
             {
@@ -188,5 +211,7 @@ namespace AddressBook.AdminPanel.State
             Response.Redirect("~/AdminPanel/Country/CountryList.aspx");
         }
         #endregion
+
+        
     }
 }

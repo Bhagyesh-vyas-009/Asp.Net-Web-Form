@@ -6,7 +6,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI.WebControls;
 
-namespace AddressBook.App_Code
+namespace AddressBook
 {
     public static class CommonDropDownListMethods
     {

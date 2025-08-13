@@ -86,7 +86,7 @@ namespace AddressBook.AdminPanel.City
             }
             finally
             {
-                Response.Redirect("~/AdminPanel/City/CityList.aspx");
+                Response.Redirect("~/AdminPanel/City/List");
                 if (conn.State == System.Data.ConnectionState.Open)
                     conn.Close();
             }

@@ -49,7 +49,6 @@ namespace AddressBook.AdminPanel.Contact
                 cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
                 cmd.Parameters.AddWithValue("@ContactName", strContactName);
-                cmd.Parameters.AddWithValue("@ContactPhotoPath", ContactPhotoPath.ToString().Trim());
 
                 if (fuContactPhotoPath.HasFile)
                 {
@@ -64,6 +63,7 @@ namespace AddressBook.AdminPanel.Contact
                     lblMessage.Text = "Please Choose File";
                     lblMessage.Attributes.Add("class", "text-danger");
                 }
+                cmd.Parameters.AddWithValue("@ContactPhotoPath", ContactPhotoPath.ToString().Trim());
 
                 fuContactPhotoPath.SaveAs(Server.MapPath(ContactPhotoPath));
 

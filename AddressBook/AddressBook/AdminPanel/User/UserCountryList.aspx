@@ -19,7 +19,7 @@
                         CommandName="DeleteCommand" CommandArgument='<%# Eval("CountryID").ToString().Trim() %>' SkinID="btnDelete"
                         OnClientClick="return confirm('Are you sure? Want to Delete this!!!!!!!!!')" />
                     <asp:HyperLink ID="hlEdit" runat="server" Text="Edit" CssClass="btn btn-warning btn-sm"
-                        NavigateUrl='<%# "~/AdminPanel/Country/CountryAddEdit.aspx?CountryID="+Eval("CountryID").ToString().Trim() %>' />
+                        NavigateUrl='<%# "~/AdminPanel/Country/CountryAddEdit.aspx?CountryID="+ AddressBook.UrlEncryptor.Encrypt(Eval("CountryID").ToString().Trim()) %>' />
                 </itemtemplate>
             </asp:TemplateField>
         </columns>
