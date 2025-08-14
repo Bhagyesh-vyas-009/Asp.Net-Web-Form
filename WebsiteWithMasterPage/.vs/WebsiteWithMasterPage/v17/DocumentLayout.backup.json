@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|c:\\users\\offic\\desktop\\dot net\\websitewithmasterpage\\websitewithmasterpage\\app_themes\\red\\red.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|solutionrelative:websitewithmasterpage\\app_themes\\red\\red.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|c:\\users\\offic\\desktop\\dot net\\websitewithmasterpage\\websitewithmasterpage\\duwebsite\\contactus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|solutionrelative:websitewithmasterpage\\duwebsite\\contactus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|c:\\users\\offic\\desktop\\dot net\\websitewithmasterpage\\websitewithmasterpage\\content\\dumaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|solutionrelative:websitewithmasterpage\\content\\dumaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|c:\\users\\offic\\desktop\\dot net\\websitewithmasterpage\\websitewithmasterpage\\app_themes\\red\\redskin.skin||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|solutionrelative:websitewithmasterpage\\app_themes\\red\\redskin.skin||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|c:\\users\\offic\\desktop\\dot net\\websitewithmasterpage\\websitewithmasterpage\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|solutionrelative:websitewithmasterpage\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|c:\\users\\offic\\desktop\\dot net\\websitewithmasterpage\\websitewithmasterpage\\content\\dumaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|solutionrelative:websitewithmasterpage\\content\\dumaster.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|c:\\users\\offic\\desktop\\dot net\\websitewithmasterpage\\websitewithmasterpage\\duwebsite\\aboutus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E4F080A9-D1DE-4D2B-8298-4E2A45F04BCA}|WebsiteWithMasterPage\\WebsiteWithMasterPage.csproj|solutionrelative:websitewithmasterpage\\duwebsite\\aboutus.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RedSkin.skin",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\App_Themes\\Red\\RedSkin.skin",
+              "RelativeDocumentMoniker": "WebsiteWithMasterPage\\App_Themes\\Red\\RedSkin.skin",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\App_Themes\\Red\\RedSkin.skin",
+              "RelativeToolTip": "WebsiteWithMasterPage\\App_Themes\\Red\\RedSkin.skin",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002845|",
+              "WhenOpened": "2025-07-31T10:27:34.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Red.css",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\App_Themes\\Red\\Red.css",
+              "RelativeDocumentMoniker": "WebsiteWithMasterPage\\App_Themes\\Red\\Red.css",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\App_Themes\\Red\\Red.css",
+              "RelativeToolTip": "WebsiteWithMasterPage\\App_Themes\\Red\\Red.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-31T10:16:01.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactUs.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\DUWebsite\\ContactUs.aspx",
+              "RelativeDocumentMoniker": "WebsiteWithMasterPage\\DUWebsite\\ContactUs.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\DUWebsite\\ContactUs.aspx",
+              "RelativeToolTip": "WebsiteWithMasterPage\\DUWebsite\\ContactUs.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-31T10:06:15.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\Web.config",
+              "RelativeDocumentMoniker": "WebsiteWithMasterPage\\Web.config",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\Web.config",
+              "RelativeToolTip": "WebsiteWithMasterPage\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-07-31T09:16:50.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DUMaster.Master.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\Content\\DUMaster.Master.cs",
+              "RelativeDocumentMoniker": "WebsiteWithMasterPage\\Content\\DUMaster.Master.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\Content\\DUMaster.Master.cs",
+              "RelativeToolTip": "WebsiteWithMasterPage\\Content\\DUMaster.Master.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T09:14:15.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AboutUs.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\DUWebsite\\AboutUs.aspx",
+              "RelativeDocumentMoniker": "WebsiteWithMasterPage\\DUWebsite\\AboutUs.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\DUWebsite\\AboutUs.aspx",
+              "RelativeToolTip": "WebsiteWithMasterPage\\DUWebsite\\AboutUs.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-31T09:13:04.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DUMaster.Master",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\Content\\DUMaster.Master",
+              "RelativeDocumentMoniker": "WebsiteWithMasterPage\\Content\\DUMaster.Master",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\WebsiteWithMasterPage\\WebsiteWithMasterPage\\Content\\DUMaster.Master",
+              "RelativeToolTip": "WebsiteWithMasterPage\\Content\\DUMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-31T07:39:02.023Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

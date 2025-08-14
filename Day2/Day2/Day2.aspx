@@ -39,7 +39,7 @@
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li>
-                                                <asp:HyperLink ID="hldropdown" runat="server" Text="DropDown List" class="dropdown-item"></asp:HyperLink></li>
+                                                <asp:HyperLink ID="hldropdown" runat="server" Text="DropDown List" class="dropdown-item" NavigateUrl="~/ListControlDemo/DropDownListDemo.aspx"></asp:HyperLink></li>
                                             <li><a class="dropdown-item" href="#">Another action</a></li>
                                             <li>
                                                 <hr class="dropdown-divider">

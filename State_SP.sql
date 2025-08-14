@@ -8,7 +8,7 @@ inner join [dbo].[Country]
 on [dbo].[State].[CountryID]=[dbo].[Country].[CountryID]
 ORDER BY StateName
 
-CREATE OR ALTER PROCEDURE [dbo].[PR_State_SelectByPK]
+CREATE OR ALTER PROCEDURE [dbo].[PR_State_SelectByPK] 
 	@StateID int
 as
  SELECT [dbo].[State].[StateID],
@@ -19,20 +19,23 @@ where StateID=@StateID
 
 CREATE OR ALTER PROCEDURE [dbo].[PR_State_Insert]
 	@StateName varchar(50),
-	@CountryID int
+	@CountryID int,
+	@UserID int
 as
 	insert into [dbo].[State]
 	(
 		[StateName],
-		[CountryID]
+		[CountryID],
+		[UserID]
 	)
 	values
 	(
 		@StateName,
-		@CountryID
+		@CountryID,
+		@UserID
 	)
 
-CREATE OR ALTER PROCEDURE [dbo].[PR_State_DeleteByPK] 
+CREATE OR ALTER PROCEDURE [dbo].[PR_State_DeleteByPK]
 	@StateID int
 as
 	Delete from [dbo].[State]
@@ -43,12 +46,14 @@ as
 CREATE OR ALTER PROCEDURE [dbo].[PR_State_UpdateByPK]
 	@StateID int,
 	@StateName varchar(50),
-	@CountryID int
+	@CountryID int,
+	@UserID int
 as
 	UPDATE [dbo].[State] SET 
-		StateName=@StateName,
-		CountryID=@CountryID
+		[dbo].[State].[StateName]=@StateName,
+		[dbo].[State].[CountryID]=@CountryID
 	WHERE StateID=@StateID
+	AND [dbo].[State].[UserID]=@UserID
 
 CREATE OR ALTER PROCEDURE [dbo].[PR_State_SelectForDropDownList]
 as
@@ -56,7 +61,7 @@ as
 		[dbo].[State].[StateName]
 from [dbo].[State]
 
-CREATE OR ALTER PROCEDURE [dbo].[PR_State_SelectForDropDownListByUserID]
+CREATE OR ALTER PROCEDURE [dbo].[PR_State_SelectForDropDownListByUserID] 
 	@UserID int
 as
  SELECT [dbo].[State].[StateID],
@@ -65,15 +70,29 @@ from [dbo].[State]
 where [dbo].[State].[UserID]=@UserID
 
 
-
-CREATE OR ALTER PROCEDURE [dbo].[PR_State_SelectAll]
+CREATE OR ALTER PROCEDURE [dbo].[PR_State_SelectByUserID] 
+	@UserID int
 as
  SELECT [dbo].[State].[StateID],
 		[dbo].[State].[StateName],
-		[dbo].[Country].[CountryName]
+		[dbo].[Country].[CountryName],
+		[dbo].[User].[DisplayName]
 from [dbo].[State]
 inner join [dbo].[Country]
 on [dbo].[State].[CountryID]=[dbo].[Country].[CountryID]
-ORDER BY StateName
+inner join [dbo].[User]
+on [dbo].[State].[UserID]=[dbo].[User].[UserID]
+where [dbo].[State].[UserID]=@UserID
+ORDER BY [dbo].[State].[StateName]
+
+CREATE OR ALTER PROCEDURE [dbo].[PR_State_SelectForDropDownListByUserIDCountryID] 7,1018
+	@UserID int,
+	@CountryID int
+as
+ SELECT [dbo].[State].[StateID],
+		[dbo].[State].[StateName]
+from [dbo].[State]
+where [dbo].[State].[UserID]=@UserID
+and [dbo].[State].[CountryID]=@CountryID
 
 

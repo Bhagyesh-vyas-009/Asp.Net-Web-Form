@@ -11,18 +11,45 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            <asp:DropDownList ID="DropDownList1" runat="server">
-                 <asp:ListItem Value="">Select Country</asp:ListItem>
+        <div id="DivDropDownList">
+            <asp:DropDownList ID="ddlCountry" runat="server" EnableViewState="False">
+                <asp:ListItem Value="">Select Country</asp:ListItem>
                 <asp:ListItem Value="91">India</asp:ListItem>
                 <asp:ListItem Value="93">Sri Lanka</asp:ListItem>
                 <asp:ListItem Value="92">China</asp:ListItem>
                 <asp:ListItem Value="96">Bhutan</asp:ListItem>
                 <asp:ListItem Value="95">Nepal</asp:ListItem>
             </asp:DropDownList>
-            <br/>
-            <asp:LinkButton ID="btnhome" runat="server" Text="Home" class="btn btn-warning" NavigateUrl="~/Day2.aspx" OnClick="btnhome_Click"></asp:LinkButton>
+            <br />
+            <asp:Button ID="btnSelect" runat="server" Text="Select" OnClick="btnSelect_Click" />
+            <br />
+            <asp:Label ID="lblCountry" runat="server" />
+            <br />
         </div>
+        <hr />
+        <asp:HyperLink ID="hlListBox" runat="server">
+        </asp:HyperLink>
+            <asp:ListBox ID="lstbCountries1" runat="server" EnableViewState="False" SelectionMode="Multiple">
+                <asp:ListItem Value="91">India</asp:ListItem>
+                <asp:ListItem Value="93">Sri Lanka</asp:ListItem>
+                <asp:ListItem Value="92">China</asp:ListItem>
+                <asp:ListItem Value="96">Bhutan</asp:ListItem>
+                <asp:ListItem Value="95">Nepal</asp:ListItem>
+            </asp:ListBox>
+            <asp:Button ID="btnmoveright" runat="server" Text=">" OnClick="btnmoveright_Click" /><br />
+            <asp:Button ID="btnmoveandclearright" runat="server" Text=">>" OnClick="btnmoveandclearright_Click" /><br />
+            <asp:Button ID="btnmoveleft" runat="server" Text="<" OnClick="btnmoveleft_Click" /><br />
+            <asp:Button ID="btnmoveandclearleft" runat="server" Text="<<" OnClick="btnmoveandclearleft_Click" /><br />
+            <asp:ListBox ID="lstbCountries2" runat="server" EnableViewState="False" SelectionMode="Multiple">
+                
+            </asp:ListBox>
+        <br />
+        <asp:Button ID="btndishobbies" runat="server" Text="Select" OnClick="btndishobbies_Click" />
+        <br />
+        <asp:Label ID="lblhobbies" runat="server" />
+        <br />
+        <hr />
+        <asp:LinkButton ID="btnhome" runat="server" Text="Home" class="btn btn-warning" NavigateUrl="~/Day2.aspx" OnClick="btnhome_Click"></asp:LinkButton>
     </form>
 </body>
 </html>

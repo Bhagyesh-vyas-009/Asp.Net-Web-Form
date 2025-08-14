@@ -83,6 +83,12 @@ as
 	where [dbo].[City].[CityID]=@CityID
 
 
- 
+CREATE OR ALTER PROCEDURE [dbo].[PR_City_SelectForDropDownListByUserID]
+	--@UserID int
+as
+ SELECT [dbo].[City].[CityID],
+		[dbo].[City].[CityName]
+from [dbo].[City]
+--where [dbo].[City.[UserID]=@UserID
 
 truncate table city
