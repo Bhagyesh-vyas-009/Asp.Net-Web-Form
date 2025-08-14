@@ -67,7 +67,6 @@ namespace AddressBook.AdminPanel.Country
                 if (Request.QueryString["CountryID"] != null)
                 {
                     cmd.Parameters.AddWithValue("@CountryID", AddressBook.UrlEncryptor.Decrypt(Request.QueryString["CountryID"].ToString().Trim()));
-                    //cmd.Parameters.AddWithValue("@UserID", Session["UserID"].ToString().Trim());
                     cmd.CommandText = "[PR_Country_UpdateByPK]";
                     cmd.ExecuteNonQuery();
                     Response.Redirect("~/AdminPanel/Country/List");
@@ -75,7 +74,6 @@ namespace AddressBook.AdminPanel.Country
                 if (Page.RouteData.Values["CountryID"] != null)
                 {
                     cmd.Parameters.AddWithValue("@CountryID", AddressBook.UrlEncryptor.Decrypt(Page.RouteData.Values["CountryID"].ToString().Trim()));
-                    //cmd.Parameters.AddWithValue("@UserID", Session["UserID"].ToString().Trim());
                     cmd.CommandText = "[PR_Country_UpdateByPK]";
                     cmd.ExecuteNonQuery();
                     Response.Redirect("~/AdminPanel/Country/List");

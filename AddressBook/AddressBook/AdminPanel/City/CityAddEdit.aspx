@@ -13,7 +13,7 @@
                 Country Name :
             </div>
             <div class="col">
-                <asp:DropDownList ID="ddlCountryID" runat="server" CssClass="form-select" OnSelectedIndexChanged="ddlCountryID_SelectedIndexChanged" ></asp:DropDownList>
+                <asp:DropDownList ID="ddlCountryID" runat="server" CssClass="form-select"  AutoPostBack="true" OnSelectedIndexChanged="ddlCountryID_SelectedIndexChanged"></asp:DropDownList>
                 <%--<asp:RequiredFieldValidator ID="rfvCountryID" runat="server" ControlToValidate="ddlCountryID" ErrorMessage="Please Select Country" ForeColor="#FF3300" InitialValue="-1"></asp:RequiredFieldValidator>--%>
             </div>
         </div>
@@ -22,7 +22,7 @@
                 State Name :
             </div>
             <div class="col">
-                <asp:DropDownList ID="ddlStateID" runat="server" CssClass="form-select"></asp:DropDownList>
+                <asp:DropDownList ID="ddlStateID" runat="server" CssClass="form-select" Enabled="false"></asp:DropDownList>
                 <%--<asp:RequiredFieldValidator ID="rfvStateID" runat="server" ControlToValidate="ddlStateID" ErrorMessage="Please Select State" ForeColor="#FF3300" InitialValue="-1"></asp:RequiredFieldValidator>--%>
             </div>
         </div>

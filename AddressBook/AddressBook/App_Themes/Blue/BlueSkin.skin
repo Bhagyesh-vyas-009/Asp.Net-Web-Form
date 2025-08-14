@@ -20,3 +20,4 @@ Default skin template. The following skins are provided as examples only.
 <asp:Button runat="server" SkinId="btnDelete" CssClass="btn btn-danger btn-sm"></asp:Button>
 <asp:Button runat="server" SkinId="btnEdit" CssClass="btn btn-warning btn-sm"></asp:Button>
 <asp:Button runat="server" SkinId="btnSave" CssClass="btn btn-success btn-sm"></asp:Button>
+<asp:DropDownList runat="server" CssClass="form-select"/>

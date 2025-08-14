@@ -14,14 +14,16 @@ namespace AddressBook.AdminPanel.City
 {
     public partial class CityAddEdit : System.Web.UI.Page
     {
+        #region Page Load
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["UserID"] == null)
-                Response.Redirect("~/AdminPanel/Login.aspx");
             if (!Page.IsPostBack)
             {
-                FillCountryDropDown();
-                FillStateDropDown();
+                if (Session["UserID"] == null)
+                    Response.Redirect("~/AdminPanel/Login.aspx");
+                FillDropDown();
+
+
                 if (Page.RouteData.Values["OperationName"] != null)
                 {
                     if (Page.RouteData.Values["CityID"] != null)
@@ -41,11 +43,15 @@ namespace AddressBook.AdminPanel.City
                 }
             }
         }
+        #endregion
 
+        #region FillCommonDropDown
         private void FillDropDown()
         {
-            //CommonDropDownListMethods.FillCountryDropDown();
+            CommonDropDownListMethods.FillCountryDropDownByUserID(ddlCountryID, Session["UserID"].ToString());
         }
+        #endregion
+
         #region Button : Save
         protected void btnSave_Click(object sender, EventArgs e)
         {
@@ -191,6 +197,7 @@ namespace AddressBook.AdminPanel.City
             conn.Close();
         }
 
+        #region FillControls
         private void FillControls(SqlInt32 CityID)
         {
             SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["AddressBookConnectionString"].ConnectionString);
@@ -231,11 +238,30 @@ namespace AddressBook.AdminPanel.City
                     conn.Close();
             }
         }
+        #endregion
 
+        #region Button : Cancel
         protected void btnCancel_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/AdminPanel/City/List");
         }
+        #endregion
 
+        #region FillStateDropDown based on CountryDropDown Selected Value
+        protected void ddlCountryID_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ddlCountryID.SelectedValue != "-1")
+            {
+                ddlStateID.Enabled = true;
+                ddlStateID.Items.Clear();
+                CommonDropDownListMethods.FillStateDropDownByUserIDCountryID(ddlStateID, ddlCountryID.SelectedValue, Session["UserID"].ToString());
+            }
+            else
+            {
+                ddlStateID.Enabled=false;
+                ddlStateID.Items.Clear();
+            }
+        }
+        #endregion
     }
 }

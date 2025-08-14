@@ -74,6 +74,8 @@
     <Content Include="AdminPanel\Country\CountryAddEdit.aspx" />
     <Content Include="AdminPanel\Country\CountryList.aspx" />
     <Content Include="AdminPanel\Default.aspx" />
+    <Content Include="AdminPanel\FileContact\FileContactAddEdit.aspx" />
+    <Content Include="AdminPanel\FileContact\FileContactList.aspx" />
     <Content Include="AdminPanel\FileUpload\FileUploadDemo.aspx" />
     <Content Include="AdminPanel\Login.aspx" />
     <Content Include="AdminPanel\Register.aspx" />
@@ -437,6 +439,20 @@
     </Compile>
     <Compile Include="AdminPanel\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\FileContact\FileContactAddEdit.aspx.cs">
+      <DependentUpon>FileContactAddEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\FileContact\FileContactAddEdit.aspx.designer.cs">
+      <DependentUpon>FileContactAddEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPanel\FileContact\FileContactList.aspx.cs">
+      <DependentUpon>FileContactList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminPanel\FileContact\FileContactList.aspx.designer.cs">
+      <DependentUpon>FileContactList.aspx</DependentUpon>
     </Compile>
     <Compile Include="AdminPanel\FileUpload\FileUploadDemo.aspx.cs">
       <DependentUpon>FileUploadDemo.aspx</DependentUpon>

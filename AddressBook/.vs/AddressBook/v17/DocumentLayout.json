@@ -3,64 +3,124 @@
   "WorkspaceRootPath": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|c:\\users\\offic\\desktop\\dot net\\addressbook\\addressbook\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\contact\\contactaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\contact\\contactaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|c:\\users\\offic\\desktop\\dot net\\addressbook\\addressbook\\app_code\\commondropdownlistmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\app_code\\commondropdownlistmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\commondropdownlistmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\commondropdownlistmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\contact\\contactaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\contact\\contactaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\city\\cityaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\city\\cityaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|c:\\users\\offic\\desktop\\dot net\\addressbook\\addressbook\\adminpanel\\contact\\contactaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\contact\\contactaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\state\\stateaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\state\\stateaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|c:\\users\\offic\\desktop\\dot net\\addressbook\\addressbook\\adminpanel\\contact\\contactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\contact\\contactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\urlencryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\urlencryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\country\\countrylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\country\\countrylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|c:\\users\\offic\\desktop\\dot net\\addressbook\\addressbook\\adminpanel\\fileupload\\fileuploaddemo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\fileupload\\fileuploaddemo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|c:\\users\\offic\\desktop\\dot net\\addressbook\\addressbook\\adminpanel\\contact\\contactlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\contact\\contactlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|c:\\users\\offic\\desktop\\dot net\\addressbook\\addressbook\\adminpanel\\contact\\contactaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\contact\\contactaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\content\\addressbook.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\content\\addressbook.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\content\\addressbook.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\content\\addressbook.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\country\\countrylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\country\\countrylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\city\\cityaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\city\\cityaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\state\\stateaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\state\\stateaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|c:\\users\\offic\\desktop\\dot net\\addressbook\\addressbook\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|c:\\users\\offic\\desktop\\dot net\\addressbook\\addressbook\\adminpanel\\fileupload\\fileuploaddemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\fileupload\\fileuploaddemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\country\\countryaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\country\\countryaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\filecontact\\filecontactlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\filecontact\\filecontactlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\contact\\contactlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\contact\\contactlist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\filecontact\\filecontactaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\filecontact\\filecontactaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\contact\\contactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\contact\\contactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\app_themes\\blue\\blueskin.skin||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\app_themes\\blue\\blueskin.skin||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\filecontact\\filecontactaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\filecontact\\filecontactaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\filecontact\\filecontactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\filecontact\\filecontactlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\state\\stateaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\state\\stateaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\user\\usercountrylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\user\\usercountrylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\city\\citylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\city\\citylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\city\\citylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\city\\citylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\state\\statelist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\state\\statelist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\country\\countrylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\country\\countrylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\country\\countryaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\country\\countryaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\country\\countrylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\country\\countrylist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\fileupload\\fileuploaddemo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\fileupload\\fileuploaddemo.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\fileupload\\fileuploaddemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\fileupload\\fileuploaddemo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\state\\statelist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,23 +139,7 @@
       "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\content\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\state\\statelist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\state\\statelist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\content\\addressbook.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\content\\addressbook.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\user\\usercountrylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\user\\usercountrylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\country\\countryaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\country\\countryaddedit.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|c:\\users\\offic\\desktop\\dot net\\addressbook\\addressbook\\adminpanel\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -103,32 +147,8 @@
       "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\city\\citylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\city\\citylist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\app_themes\\blue\\blueskin.skin||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\app_themes\\blue\\blueskin.skin||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\country\\countryaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\country\\countryaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\addressbook\\adminpanel\\state\\stateaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{2D2DD945-A7D5-4EF9-8F8B-9CC1B5533BD4}|AddressBook\\AddressBook.csproj|solutionrelative:addressbook\\adminpanel\\state\\stateaddedit.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -138,50 +158,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Global.asax.cs",
-              "RelativeDocumentMoniker": "AddressBook\\Global.asax.cs",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Global.asax.cs",
-              "RelativeToolTip": "AddressBook\\Global.asax.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAIwDYAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CityAddEdit.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\City\\CityAddEdit.aspx.cs",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\City\\CityAddEdit.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\City\\CityAddEdit.aspx.cs",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\City\\CityAddEdit.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T12:17:05.688Z",
+              "WhenOpened": "2025-08-01T07:09:32.569Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CommonDropDownListMethods.cs",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\App_Code\\CommonDropDownListMethods.cs",
-              "RelativeDocumentMoniker": "AddressBook\\App_Code\\CommonDropDownListMethods.cs",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\App_Code\\CommonDropDownListMethods.cs",
-              "RelativeToolTip": "AddressBook\\App_Code\\CommonDropDownListMethods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\CommonDropDownListMethods.cs",
+              "RelativeDocumentMoniker": "AddressBook\\CommonDropDownListMethods.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\CommonDropDownListMethods.cs",
+              "RelativeToolTip": "AddressBook\\CommonDropDownListMethods.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAHoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T11:21:22.495Z",
+              "WhenOpened": "2025-08-12T12:49:48.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Global.asax.cs",
+              "RelativeDocumentMoniker": "AddressBook\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Global.asax.cs",
+              "RelativeToolTip": "AddressBook\\Global.asax.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T12:17:05.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ContactAddEdit.aspx.cs",
               "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Contact\\ContactAddEdit.aspx.cs",
               "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Contact\\ContactAddEdit.aspx.cs",
               "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Contact\\ContactAddEdit.aspx.cs",
               "RelativeToolTip": "AddressBook\\AdminPanel\\Contact\\ContactAddEdit.aspx.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAkwEAAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAswDIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T08:56:49.056Z",
+              "WhenOpened": "2025-08-13T07:13:34.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "AddressBook.Master",
               "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Content\\AddressBook.Master",
               "RelativeDocumentMoniker": "AddressBook\\Content\\AddressBook.Master",
@@ -194,85 +227,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CountryList.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Country\\CountryList.aspx.cs",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Country\\CountryList.aspx.cs",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Country\\CountryList.aspx.cs",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\Country\\CountryList.aspx.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T12:47:27.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ContactList.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Contact\\ContactList.aspx.cs",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Contact\\ContactList.aspx.cs",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Contact\\ContactList.aspx.cs",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\Contact\\ContactList.aspx.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAASwGUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T08:55:30.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ContactList.aspx",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Contact\\ContactList.aspx",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Contact\\ContactList.aspx",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Contact\\ContactList.aspx",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\Contact\\ContactList.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-08T08:55:22.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FileUploadDemo.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx.cs",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx.cs",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx.cs",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAwCkAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-08T06:27:11.54Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CityAddEdit.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\City\\CityAddEdit.aspx.cs",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\City\\CityAddEdit.aspx.cs",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\City\\CityAddEdit.aspx.cs",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\City\\CityAddEdit.aspx.cs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAwwNQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T07:09:32.569Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "StateAddEdit.aspx.cs",
               "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateAddEdit.aspx.cs",
               "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\State\\StateAddEdit.aspx.cs",
               "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateAddEdit.aspx.cs",
               "RelativeToolTip": "AddressBook\\AdminPanel\\State\\StateAddEdit.aspx.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAwwHMAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T04:50:40.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "UrlEncryptor.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\UrlEncryptor.cs",
+              "RelativeDocumentMoniker": "AddressBook\\UrlEncryptor.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\UrlEncryptor.cs",
+              "RelativeToolTip": "AddressBook\\UrlEncryptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T12:12:18.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ContactAddEdit.aspx",
               "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Contact\\ContactAddEdit.aspx",
               "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Contact\\ContactAddEdit.aspx",
@@ -280,64 +261,12 @@
               "RelativeToolTip": "AddressBook\\AdminPanel\\Contact\\ContactAddEdit.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-08T08:47:26.331Z",
+              "WhenOpened": "2025-08-13T07:13:15.349Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FileUploadDemo.aspx",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-08T06:21:50.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CountryList.aspx",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Country\\CountryList.aspx",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Country\\CountryList.aspx",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Country\\CountryList.aspx",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\Country\\CountryList.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-31T12:43:27.498Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CityList.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\City\\CityList.aspx.cs",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\City\\CityList.aspx.cs",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\City\\CityList.aspx.cs",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\City\\CityList.aspx.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T06:55:31.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StateList.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateList.aspx.cs",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\State\\StateList.aspx.cs",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateList.aspx.cs",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\State\\StateList.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T05:30:54.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "CityAddEdit.aspx",
               "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\City\\CityAddEdit.aspx",
               "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\City\\CityAddEdit.aspx",
@@ -350,80 +279,158 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserCountryList.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\User\\UserCountryList.aspx.cs",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\User\\UserCountryList.aspx.cs",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\User\\UserCountryList.aspx.cs",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\User\\UserCountryList.aspx.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwD4AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T12:23:35.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "bootstrap.min.css",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Content\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
-              "RelativeDocumentMoniker": "AddressBook\\Content\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Content\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
-              "RelativeToolTip": "AddressBook\\Content\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-08-02T06:49:12.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Default.aspx",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Default.aspx",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Default.aspx",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\Default.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-02T12:00:42.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "StateList.aspx",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateList.aspx",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\State\\StateList.aspx",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateList.aspx",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\State\\StateList.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-01T04:47:21.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 7,
               "Title": "AddressBook.Master.cs",
               "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Content\\AddressBook.Master.cs",
               "RelativeDocumentMoniker": "AddressBook\\Content\\AddressBook.Master.cs",
               "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Content\\AddressBook.Master.cs",
               "RelativeToolTip": "AddressBook\\Content\\AddressBook.Master.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T11:40:47.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 10,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Web.config",
+              "RelativeDocumentMoniker": "AddressBook\\Web.config",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Web.config",
+              "RelativeToolTip": "AddressBook\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-08-01T04:58:26.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CountryAddEdit.aspx.cs",
               "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Country\\CountryAddEdit.aspx.cs",
               "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Country\\CountryAddEdit.aspx.cs",
               "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Country\\CountryAddEdit.aspx.cs",
               "RelativeToolTip": "AddressBook\\AdminPanel\\Country\\CountryAddEdit.aspx.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAYwDEAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowEgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T13:25:25.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BlueSkin.skin",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\App_Themes\\Blue\\BlueSkin.skin",
+              "RelativeDocumentMoniker": "AddressBook\\App_Themes\\Blue\\BlueSkin.skin",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\App_Themes\\Blue\\BlueSkin.skin",
+              "RelativeToolTip": "AddressBook\\App_Themes\\Blue\\BlueSkin.skin",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002845|",
+              "WhenOpened": "2025-08-01T04:55:11.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FileContactAddEdit.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileContact\\FileContactAddEdit.aspx.cs",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\FileContact\\FileContactAddEdit.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileContact\\FileContactAddEdit.aspx.cs",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\FileContact\\FileContactAddEdit.aspx.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwC4AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:11:04.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FileContactList.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileContact\\FileContactList.aspx.cs",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\FileContact\\FileContactList.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileContact\\FileContactList.aspx.cs",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\FileContact\\FileContactList.aspx.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAIwFwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:10:13.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ContactList.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Contact\\ContactList.aspx",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Contact\\ContactList.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Contact\\ContactList.aspx",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\Contact\\ContactList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-13T07:11:54.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactList.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Contact\\ContactList.aspx.cs",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Contact\\ContactList.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Contact\\ContactList.aspx.cs",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\Contact\\ContactList.aspx.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwFUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T07:12:30.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FileContactAddEdit.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileContact\\FileContactAddEdit.aspx",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\FileContact\\FileContactAddEdit.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileContact\\FileContactAddEdit.aspx",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\FileContact\\FileContactAddEdit.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-13T07:10:50.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FileContactList.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileContact\\FileContactList.aspx",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\FileContact\\FileContactList.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileContact\\FileContactList.aspx",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\FileContact\\FileContactList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-13T07:09:42.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Login.aspx",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Login.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Login.aspx",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-02T11:09:20.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StateAddEdit.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateAddEdit.aspx",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\State\\StateAddEdit.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateAddEdit.aspx",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\State\\StateAddEdit.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-01T04:47:47.037Z",
               "EditorCaption": ""
             },
             {
@@ -442,19 +449,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "Register.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Register.aspx.cs",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Register.aspx.cs",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Register.aspx.cs",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\Register.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "CityList.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\City\\CityList.aspx.cs",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\City\\CityList.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\City\\CityList.aspx.cs",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\City\\CityList.aspx.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowFgAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T12:44:49.283Z",
+              "WhenOpened": "2025-08-01T06:55:31.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 22,
               "Title": "CityList.aspx",
               "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\City\\CityList.aspx",
               "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\City\\CityList.aspx",
@@ -467,59 +474,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Login.aspx",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Login.aspx",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Login.aspx",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\Login.aspx",
+              "DocumentIndex": 24,
+              "Title": "StateList.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateList.aspx",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\State\\StateList.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateList.aspx",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\State\\StateList.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-02T11:09:20.929Z",
+              "WhenOpened": "2025-08-01T04:47:21.453Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Login.aspx.cs",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Login.aspx.cs",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\Login.aspx.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCEAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T11:11:07.862Z",
+              "DocumentIndex": 25,
+              "Title": "CountryList.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Country\\CountryList.aspx",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Country\\CountryList.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Country\\CountryList.aspx",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\Country\\CountryList.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-31T12:43:27.498Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 26,
-              "Title": "Register.aspx",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Register.aspx",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Register.aspx",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Register.aspx",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\Register.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-02T12:38:56.011Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Web.config",
-              "RelativeDocumentMoniker": "AddressBook\\Web.config",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Web.config",
-              "RelativeToolTip": "AddressBook\\Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-08-01T04:58:26.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
               "Title": "CountryAddEdit.aspx",
               "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Country\\CountryAddEdit.aspx",
               "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Country\\CountryAddEdit.aspx",
@@ -532,28 +513,131 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CountryList.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Country\\CountryList.aspx.cs",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Country\\CountryList.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Country\\CountryList.aspx.cs",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\Country\\CountryList.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T12:47:27.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FileUploadDemo.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx.cs",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx.cs",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T06:27:11.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "BlueSkin.skin",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\App_Themes\\Blue\\BlueSkin.skin",
-              "RelativeDocumentMoniker": "AddressBook\\App_Themes\\Blue\\BlueSkin.skin",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\App_Themes\\Blue\\BlueSkin.skin",
-              "RelativeToolTip": "AddressBook\\App_Themes\\Blue\\BlueSkin.skin",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002845|",
-              "WhenOpened": "2025-08-01T04:55:11.268Z",
+              "Title": "FileUploadDemo.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\FileUpload\\FileUploadDemo.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-08T06:21:50.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "StateList.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateList.aspx.cs",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\State\\StateList.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateList.aspx.cs",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\State\\StateList.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T05:30:54.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "StateAddEdit.aspx",
-              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateAddEdit.aspx",
-              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\State\\StateAddEdit.aspx",
-              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\State\\StateAddEdit.aspx",
-              "RelativeToolTip": "AddressBook\\AdminPanel\\State\\StateAddEdit.aspx",
+              "Title": "UserCountryList.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\User\\UserCountryList.aspx.cs",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\User\\UserCountryList.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\User\\UserCountryList.aspx.cs",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\User\\UserCountryList.aspx.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwD4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T12:23:35.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Content\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "AddressBook\\Content\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\Content\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+              "RelativeToolTip": "AddressBook\\Content\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-02T06:49:12.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Default.aspx",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Default.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Default.aspx",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-08-01T04:47:47.037Z",
+              "WhenOpened": "2025-08-02T12:00:42.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Register.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Register.aspx.cs",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Register.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Register.aspx.cs",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\Register.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T12:44:49.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Login.aspx.cs",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\Login.aspx.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T11:11:07.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Register.aspx",
+              "RelativeDocumentMoniker": "AddressBook\\AdminPanel\\Register.aspx",
+              "ToolTip": "C:\\Users\\offic\\Desktop\\Dot Net\\AddressBook\\AddressBook\\AdminPanel\\Register.aspx",
+              "RelativeToolTip": "AddressBook\\AdminPanel\\Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-08-02T12:38:56.011Z",
               "EditorCaption": ""
             }
           ]

@@ -21,7 +21,7 @@ namespace AddressBook.AdminPanel.State
                 Response.Redirect("~/AdminPanel/Login.aspx");
             if (!Page.IsPostBack)
             {
-                FillCountryDropDownList();
+                AddressBook.CommonDropDownListMethods.FillCountryDropDownByUserID(ddlCountryID, Session["UserID"].ToString().Trim());
                 if (Page.RouteData.Values["OperationName"] != null)
                 {
                     if (Page.RouteData.Values["StateID"] != null)
@@ -208,7 +208,7 @@ namespace AddressBook.AdminPanel.State
         #region BtnCancel
         protected void btnCancel_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/AdminPanel/Country/CountryList.aspx");
+            Response.Redirect("~/AdminPanel/State/List");
         }
         #endregion
 
