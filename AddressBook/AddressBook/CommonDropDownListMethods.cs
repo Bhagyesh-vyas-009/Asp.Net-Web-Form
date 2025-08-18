@@ -186,5 +186,21 @@ namespace AddressBook
             conn.Close();
         }
         #endregion
+
+        #region FillBloodGroup DropDownList
+        public static void FillBloodGroupDropDownList(DropDownList ddlBloodGroup)
+        {
+            ddlBloodGroup.Items.Insert(0, new ListItem("Select Blood Group", "-1"));
+            ddlBloodGroup.Items.Add(new ListItem("A positive (A+)", "A positive (A+)"));
+            ddlBloodGroup.Items.Add(new ListItem("A negative (A-)", "A negative (A-)"));
+            ddlBloodGroup.Items.Add(new ListItem("B positive (B+)", "B positive (B+)"));
+            ddlBloodGroup.Items.Add(new ListItem("B negative (B-)", "B negative (B-)"));
+            ddlBloodGroup.Items.Add(new ListItem("AB positive (AB+)", "AB positive (AB+)"));
+            ddlBloodGroup.Items.Add(new ListItem("B negative (AB-)", "B negative (AB-)"));
+            ddlBloodGroup.Items.Add(new ListItem("O positive (O+)", "O positive (O+)"));
+            ddlBloodGroup.Items.Add(new ListItem("O negative (O-)", "O negative (O-)"));
+            ddlBloodGroup.Items.Add(new ListItem("Unknown", "Unknown"));
+        }
+        #endregion
     }
 }

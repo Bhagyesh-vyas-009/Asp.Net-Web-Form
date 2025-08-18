@@ -51,11 +51,11 @@
                         </div>
                         <div class="col">
                             <label class="form-label" asp-for="StateID">State<span class="text-danger">*</span></label><br />
-                            <asp:DropDownList ID="ddlStateID" runat="server" AutoPostBack="true" Enabled="false" OnSelectedIndexChanged="ddlStateID_SelectedIndexChanged"></asp:DropDownList>
+                            <asp:DropDownList ID="ddlStateID" runat="server" AutoPostBack="true"  OnSelectedIndexChanged="ddlStateID_SelectedIndexChanged"></asp:DropDownList>
                         </div>
                         <div class="col">
                             <label class="form-label" asp-for="CityID">City<span class="text-danger">*</span></label><br />
-                            <asp:DropDownList ID="ddlCityID" runat="server" AutoPostBack="true" Enabled="false"></asp:DropDownList>
+                            <asp:DropDownList ID="ddlCityID" runat="server" AutoPostBack="true" ></asp:DropDownList>
                         </div>
                     </div>
                     <div class="row">
@@ -68,7 +68,7 @@
                     <div class="row">
                         <div class="col">
                             <label class="form-label" asp-for="BirthDate">Birth Date<span class="text-danger" >*</span></label>
-                            <asp:TextBox ID="txtBirthDate" runat="server" TextMode="DateTime" PlaceHolder="yyyy-mm-dd"></asp:TextBox>
+                            <asp:TextBox ID="txtBirthDate" runat="server" TextMode="DateTime" OnTextChanged="txtBirthDate_TextChanged" ></asp:TextBox>
                         </div>
                         <div class="col">
                             <label class="form-label" asp-for="Age">Age<span class="text-danger">*</span></label>
@@ -77,7 +77,7 @@
                     </div>
                     <div class="col-md-6">
                         <label class="form-label" asp-for="BloodGroup">Blood Group<span class="text-danger">*</span></label>
-                        <asp:TextBox ID="txtBloodGroup" runat="server"></asp:TextBox>
+                         <asp:DropDownList ID="ddlBloodGroup" runat="server" ></asp:DropDownList>
                     </div>
                     <br />
                     <div class="col-md-6">
@@ -86,8 +86,26 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <h5>Contact Category</h5>
-                    <asp:CheckBoxList ID="cblContactCategoryID" runat="server" />
+                    <div class="row">
+                        <div class="col-12">
+                            <h5>Contact Category</h5>
+                            <asp:CheckBoxList ID="cblContactCategoryID" runat="server" />
+                            <hr />
+                        </div>
+                        <div class="col-12" id="divUpload" runat="server" visible="true">
+                            <h5>Upload Contact Photo</h5>
+                            <asp:FileUpload ID="fuContactPhotoPath" runat="server" accept=".jpg,.jpeg,.png"/>
+                            <hr />
+                        </div>
+                        <div class="col-12">
+                            <asp:Panel ID="plPreviewFromUploaded" runat="server" Visible="false">
+                                <asp:Image ID="imgPreview" runat="server" Height="100px" CssClass="border rounded"/>
+                                <asp:Button ID="btnDelete" runat="server" Text="Delete" SkinID="btnDelete" OnClick="btnDelete_Click" />
+                            </asp:Panel>
+                        </div>
+                    </div>
                 </div>
             </div>
+    </div>
+    </div>
 </asp:Content>

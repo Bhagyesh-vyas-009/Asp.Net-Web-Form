@@ -115,6 +115,19 @@ namespace AddressBook
                     "AdminPanel/Register",
                     "~/AdminPanel/Register.aspx"
                 );
+
+            routes.MapPageRoute(
+                   "AdminPanelContactAdd",
+                   "AdminPanel/Contact/{OperationName}",
+                   "~/AdminPanel/Contact/ContactAddEdit.aspx"
+            );
+
+            routes.MapPageRoute(
+                   "AdminPanelContactEdit",
+                   "AdminPanel/Contact/{OperationName}/{ContactID}",
+                   "~/AdminPanel/Contact/ContactAddEdit.aspx"
+            );
+
         }
     }
 }

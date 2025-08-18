@@ -18,21 +18,28 @@ namespace AddressBook.AdminPanel.Contact
         {
             if (!Page.IsPostBack)
             {
-                if (Session["UserID"] == null)
-                {
-                    Response.Redirect("~/AdminPanel/Login");
-                }
+                //if (Session["UserID"] == null)
+                //{
+                //    Response.Redirect("~/AdminPanel/Login");
+                //}
                 FillDropDown();
                 FillCBLContactCategoryID();
-                if (Request.QueryString["ContactID"] == null)
+                CommonDropDownListMethods.FillBloodGroupDropDownList(ddlBloodGroup);
+
+                if (Request.QueryString["ContactID"] == null && Page.RouteData.Values["ContactID"] == null)
                 {
                     lblMessage.Text = "Add Mode";
                 }
-                else
+                if (Page.RouteData.Values["OperationName"]!=null)
                 {
-                    lblMessage.Text = "Edit Mode | ContactID=" + Request.QueryString["ContactID"];
-                    FillControls(Convert.ToInt32(Request.QueryString["ContactID"]));
-                    FillContactCategoryIDByContactID(Convert.ToInt32(Request.QueryString["ContactID"].ToString()));
+                    if(Page.RouteData.Values["ContactID"] != null)
+                    {
+                        lblMessage.Text = "Edit Mode | ContactID=" + Page.RouteData.Values["ContactID"];
+                        FillControls(Convert.ToInt32(AddressBook.UrlEncryptor.Decrypt(Page.RouteData.Values["ContactID"].ToString().Trim())));
+                        FillContactCategoryIDByContactID(Convert.ToInt32(AddressBook.UrlEncryptor.Decrypt(Page.RouteData.Values["ContactID"].ToString().Trim())));
+                        //FillControls(Convert.ToInt32(Request.QueryString["ContactID"]));
+                        //FillContactCategoryIDByContactID(Convert.ToInt32(Request.QueryString["ContactID"].ToString()));
+                    }
                 }
             }
         }
@@ -41,14 +48,6 @@ namespace AddressBook.AdminPanel.Contact
         private void FillDropDown()
         {
             CommonDropDownListMethods.FillCountryDropDown(ddlCountryID);
-            CommonDropDownListMethods.FillStateDropDownByCountryID(ddlStateID, ddlCountryID.SelectedValue);
-            CommonDropDownListMethods.FillCityDropDownByStateID(ddlCityID, ddlStateID.SelectedValue);
-
-            if (ddlCountryID.SelectedValue != "-1")
-                ddlStateID.Enabled = true;
-
-            if (ddlStateID.SelectedValue != "-1") 
-                ddlCityID.Enabled = true;
         }
         #endregion
 
@@ -92,7 +91,8 @@ namespace AddressBook.AdminPanel.Contact
                     errorMessage += "Enter BirthDate<br/>";
                 if (txtAge.Text.Trim() == "")
                     errorMessage += "Enter Age <br/>";
-                if (txtBloodGroup.Text.Trim() == "")
+               
+                if (ddlBloodGroup.SelectedIndex==0)
                     errorMessage += "Enter Blood Group  <br/>";
                 if (rbtnlGender.SelectedValue == "")
                     errorMessage += "Select Gender<br/>";
@@ -102,9 +102,12 @@ namespace AddressBook.AdminPanel.Contact
                     errorMessage += "Select State<br/>";
                 if (ddlCityID.SelectedIndex == 0)
                     errorMessage += "Select City<br/>";
-
-                strGender =rbtnlGender.SelectedValue.Trim();
                
+                if (!fuContactPhotoPath.HasFile && imgPreview.ImageUrl=="")
+                {
+                    errorMessage += "Please select a file to upload.<br/>";
+                }
+             
                 if (errorMessage != "")
                 {
                     lblMessage.Text = errorMessage;
@@ -121,6 +124,9 @@ namespace AddressBook.AdminPanel.Contact
                 if (txtWhatsAppNo.Text.Trim() != "")
                     strWhatsAppNo= txtWhatsAppNo.Text.Trim();
 
+                if(rbtnlGender.SelectedValue!="")
+                    strGender= rbtnlGender.SelectedValue.Trim();
+
                 if (txtAddress.Text.Trim() != "")
                     strAddress= txtAddress.Text.Trim();
                 if (txtEmail.Text.Trim() != "")
@@ -129,8 +135,9 @@ namespace AddressBook.AdminPanel.Contact
                     strBirthDate= txtBirthDate.Text.Trim();
                 if (txtAge.Text.Trim() != "")
                     sqlAge=Convert.ToInt32(txtAge.Text.Trim());
-                if (txtBloodGroup.Text.Trim() != "")
-                    strBloodGroup = txtBloodGroup.Text.Trim();
+
+                if (ddlBloodGroup.SelectedIndex > 0)
+                    strBloodGroup = ddlBloodGroup.SelectedValue;
 
                 if (ddlCountryID.SelectedIndex > 0)
                     strCountryID = ddlCountryID.SelectedValue;
@@ -139,8 +146,26 @@ namespace AddressBook.AdminPanel.Contact
                 if (ddlCityID.SelectedIndex > 0)
                     strCityID = ddlCityID.SelectedValue;
 
-                str += strContactName + strGender + strEmail + strMobileNo + strWhatsAppNo + strAddress + strBirthDate + strBloodGroup;
-                lblMessage.Text += str.ToString();
+                if (fuContactPhotoPath.HasFile)
+                {
+                    string fileExtension = System.IO.Path.GetExtension(fuContactPhotoPath.FileName).ToLower();
+                    string[] allowedExtensions = { ".jpg", ".jpeg", ".png" };
+
+                    if (Array.IndexOf(allowedExtensions, fileExtension) > -1)
+                    {
+                        // File type is allowed, proceed with saving or processing
+                        String FolderName = "~/ContactPhoto/";
+                        String AbsolutePath = Server.MapPath(FolderName);
+                        if (!Directory.Exists(AbsolutePath))
+                            Directory.CreateDirectory(AbsolutePath);
+                        ContactPhotoPath = FolderName + strContactName.ToString() + DateTime.Now.ToString("ddMMyyyyyhh_mm_ss_fff") + System.IO.Path.GetExtension(fuContactPhotoPath.FileName.ToString().Trim());
+                    }
+                    else
+                    {
+                        lblMessage.Text = "Invalid file type. Only JPG, PNG and JPEG files are allowed.";
+                    }
+                }
+
                 if (conn.State != System.Data.ConnectionState.Open)
                     conn.Open();
 
@@ -161,9 +186,18 @@ namespace AddressBook.AdminPanel.Contact
                 cmd.Parameters.AddWithValue("@StateID", strStateID);
                 cmd.Parameters.AddWithValue("@CityID", strCityID);
 
-                if (Request.QueryString["ContactID"] != null)
+                if (imgPreview.ImageUrl != "")
                 {
-                    cmd.Parameters.AddWithValue("@ContactID", Request.QueryString["ContactID"].ToString().Trim());
+                    cmd.Parameters.AddWithValue("@ContactPhotoPath", imgPreview.ImageUrl);
+                }
+                else
+                {
+                    cmd.Parameters.AddWithValue("@ContactPhotoPath", ContactPhotoPath.ToString().Trim());
+                }
+
+                if (Page.RouteData.Values["ContactID"] != null)
+                {
+                    cmd.Parameters.AddWithValue("@ContactID", AddressBook.UrlEncryptor.Decrypt(Page.RouteData.Values["ContactID"].ToString().Trim()));
                     cmd.CommandText = "PR_Contact_UpdateByPK";
                     cmd.ExecuteNonQuery();
                 }
@@ -175,7 +209,7 @@ namespace AddressBook.AdminPanel.Contact
                     txtContactName.Text = "";
                     txtContactName.Focus();
                 }
-
+                fuContactPhotoPath.SaveAs(Server.MapPath(ContactPhotoPath));
 
                 SqlInt32 ContactID = 0;
                 if (Request.QueryString["ContactID"] != null)
@@ -226,10 +260,10 @@ namespace AddressBook.AdminPanel.Contact
         #region FillControls
         private void FillControls(SqlInt32 ContactID)
         {
+            String imgPath = "";
             SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["AddressBookConnectionString"].ConnectionString);
             try
             {
-
                 if (conn.State != System.Data.ConnectionState.Open)
                     conn.Open();
 
@@ -251,13 +285,20 @@ namespace AddressBook.AdminPanel.Contact
                         ddlStateID.SelectedValue = sdr["StateID"].ToString();
                         ddlCityID.SelectedValue = sdr["CityID"].ToString();
 
+                        CommonDropDownListMethods.FillStateDropDownByCountryID(ddlStateID, sdr["CountryID"].ToString());
+                        CommonDropDownListMethods.FillCityDropDownByStateID(ddlCityID, sdr["StateID"].ToString());
+
                         txtMobileNo.Text = sdr["MobileNo"].ToString();
                         txtWhatsAppNo.Text = sdr["WhatsAppNo"].ToString();
                         txtEmail.Text = sdr["Email"].ToString();
                         txtAddress.Text = sdr["Address"].ToString();
+
+                        //DateTime date=DateTime.Parse(sdr["BirthDate"].ToString());
+                        //txtBirthDate.Text = date.ToString();
                         txtBirthDate.Text = sdr["BirthDate"].ToString();
                         txtAge.Text = sdr["Age"].ToString();
-                        txtBloodGroup.Text = sdr["BloodGroup"].ToString();
+                        ddlBloodGroup.SelectedValue = sdr["BloodGroup"].ToString();
+                        imgPath = sdr["ContactPhotoPath"].ToString();
                         break;
                     }
                 }
@@ -266,6 +307,7 @@ namespace AddressBook.AdminPanel.Contact
                     lblMessage.Text = "No Data";
                     lblMessage.Attributes.Add("class", "text-info");
                 }
+                imgPreviewVisibleOrNot(imgPath);
             }
             catch (Exception ex)
             {
@@ -320,10 +362,12 @@ namespace AddressBook.AdminPanel.Contact
         }
         #endregion
 
+        #region Button : Cancel
         protected void btnCancel_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/AdminPanel/Contact/ContactList.aspx");
         }
+        #endregion
 
         #region FillCBLContactCategoryID
         private void FillCBLContactCategoryID()
@@ -362,18 +406,23 @@ namespace AddressBook.AdminPanel.Contact
         }
         #endregion
 
+        #region ddlCountryID SelectedIndexChanged
         protected void ddlCountryID_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (ddlCountryID.SelectedIndex > 0) {
+            if (ddlCountryID.SelectedIndex > 0)
+            {
                 ddlStateID.Enabled = true;
+                ddlStateID.Items.Clear();
                 CommonDropDownListMethods.FillStateDropDownByCountryID(ddlStateID, ddlCountryID.SelectedValue);
             }
             else
             {
-                ddlStateID.Enabled=false;
+                ddlStateID.Enabled = false;
             }
         }
+        #endregion
 
+        #region ddlStateID_SelectedIndexChanged
         protected void ddlStateID_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (ddlStateID.SelectedIndex > 0)
@@ -386,6 +435,46 @@ namespace AddressBook.AdminPanel.Contact
             {
                 ddlCityID.Enabled = false;
             }
+        }
+
+        #endregion
+
+        #region Button : Delete File
+        protected void btnDelete_Click(object sender, EventArgs e)
+        {
+            FileInfo file=new FileInfo(Server.MapPath(imgPreview.ImageUrl));
+
+            if (file.Exists) { 
+                file.Delete();
+                imgPreview.ImageUrl = "";
+                imgPreviewVisibleOrNot(imgPreview.ImageUrl);
+            }
+        }
+        #endregion
+
+        #region Image Preview VisibleOrNot
+        private void imgPreviewVisibleOrNot(String imgPath)
+        {
+            FileInfo file = new FileInfo(Server.MapPath(imgPath));
+            if (file.Exists)
+            {
+                imgPreview.ImageUrl = imgPath;
+                divUpload.Visible = false;
+                plPreviewFromUploaded.Visible = true;
+                lblMessage.Text += "<br/>" + Server.MapPath(imgPath) + file;
+                lblMessage.Text += "<br/>"+imgPreview.ImageUrl;
+            }
+            if (!file.Exists)
+            {
+                divUpload.Visible = true;
+                plPreviewFromUploaded.Visible= false;
+            }
+        }
+        #endregion
+
+        protected void txtBirthDate_TextChanged(object sender, EventArgs e)
+        {
+            //txtAge.Text= DateTime.Parse(txtBirthDate.Text);
         }
     }
 }
